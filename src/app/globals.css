@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+.img-width {
+  width: 15rem;
+  height: auto;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.video-width {
+  width: 25rem;
+  height: 40vh;
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
